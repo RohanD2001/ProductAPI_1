@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "7XZpFZhi/6w2rI1uhSYcQ3WHQqE3eugmUzezyIRiZ3k=",
+  "Source": "ProductAPI",
+  "BasePath": "_content/ProductAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProductAPI\\wwwroot",
+      "Source": "ProductAPI",
+      "ContentRoot": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\wwwroot\\",
+      "BasePath": "_content/ProductAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
