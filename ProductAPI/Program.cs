@@ -12,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
 builder.Services.AddSingleton<ProductCreatedEventHandler>();
 builder.Services.AddEndpointsApiExplorer();
@@ -31,14 +32,15 @@ builder.Services.AddHttpClient("MyClient")
 
 var app = builder.Build();
 
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<CustomMiddleware>(); // Register custom middleware
-app.UseMiddleware<ExceptionHandlingMiddleware>(); // Register exception handling middleware
+app.UseMiddleware<CustomMiddleware>(); // Registering custom middleware
+app.UseMiddleware<ExceptionHandlingMiddleware>(); // Registering exception handling middleware
 
 app.UseHttpsRedirection();
 app.MapControllers();

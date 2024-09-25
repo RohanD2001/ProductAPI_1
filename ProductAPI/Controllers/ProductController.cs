@@ -46,5 +46,11 @@ namespace ProductAPI.Controllers
             await _repository.DeleteProduct(id);
             return Ok();
         }
+        [HttpGet("test-exception")]
+        public ActionResult TestException()
+        {
+            throw new Exception("This is a test exception.");
+        }
+
     }
 }

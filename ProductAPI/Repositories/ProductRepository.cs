@@ -31,7 +31,7 @@ public class ProductRepository : IProductRepository
         await _context.Products.AddAsync(product);
         await _context.SaveChangesAsync();
 
-        // Trigger the event
+        // event
         _eventHandler.Handle(new ProductCreatedEvent(product));
     }
 
@@ -42,6 +42,9 @@ public class ProductRepository : IProductRepository
         {
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
+        }
+        else {
+            throw new Exception(message: "Please Enter a valid Id");
         }
     }
 }
