@@ -1,10 +1,8 @@
 using ProductAPI.Data;
 using ProductAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
-using Polly;
 using ProductAPI.Middleware;
 using ProductAPI.EventHandler;
-using Polly.Extensions.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 

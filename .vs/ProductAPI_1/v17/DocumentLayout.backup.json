@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\eventhandler\\productcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D16F6039-1E64-4C77-A587-F2636FFE0E30}|ProductAPI.EHMiddleware.Test\\ProductAPI.EHMiddleware.Test.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi.ehmiddleware.test\\ehmiddlewaretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D16F6039-1E64-4C77-A587-F2636FFE0E30}|ProductAPI.EHMiddleware.Test\\ProductAPI.EHMiddleware.Test.csproj|solutionrelative:productapi.ehmiddleware.test\\ehmiddlewaretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Controllers\\ProductController.cs",
@@ -70,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Models\\Product.cs",
@@ -82,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductCreatedEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\EventHandler\\ProductCreatedEventHandler.cs",
               "RelativeDocumentMoniker": "ProductAPI\\EventHandler\\ProductCreatedEventHandler.cs",
@@ -94,40 +90,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Program.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Program.cs",
               "ToolTip": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Program.cs",
               "RelativeToolTip": "ProductAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:46:30.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T06:46:30.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Repositories\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "ProductAPI\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:38:16.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EHMiddlewareTest.cs",
-              "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI.EHMiddleware.Test\\EHMiddlewareTest.cs",
-              "RelativeDocumentMoniker": "ProductAPI.EHMiddleware.Test\\EHMiddlewareTest.cs",
-              "ToolTip": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI.EHMiddleware.Test\\EHMiddlewareTest.cs",
-              "RelativeToolTip": "ProductAPI.EHMiddleware.Test\\EHMiddlewareTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:04:47.64Z"
+              "WhenOpened": "2024-09-20T06:38:16.743Z",
+              "EditorCaption": ""
             }
           ]
         }

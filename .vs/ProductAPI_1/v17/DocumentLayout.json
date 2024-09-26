@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|c:\\users\\2322452\\source\\repos\\productapi_1\\productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FB8455-D412-4757-B35C-95F01F2E6F99}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProductAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwB0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T11:26:09.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Models\\Product.cs",
@@ -75,11 +75,12 @@
               "RelativeToolTip": "ProductAPI\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T18:35:54.66Z"
+              "WhenOpened": "2024-09-24T18:35:54.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductCreatedEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\EventHandler\\ProductCreatedEventHandler.cs",
               "RelativeDocumentMoniker": "ProductAPI\\EventHandler\\ProductCreatedEventHandler.cs",
@@ -87,30 +88,31 @@
               "RelativeToolTip": "ProductAPI\\EventHandler\\ProductCreatedEventHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T16:44:00.151Z"
+              "WhenOpened": "2024-09-24T16:44:00.151Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Program.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Program.cs",
               "ToolTip": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Program.cs",
               "RelativeToolTip": "ProductAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T06:46:30.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Repositories\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "ProductAPI\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T06:38:16.743Z",
               "EditorCaption": ""
