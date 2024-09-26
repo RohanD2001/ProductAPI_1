@@ -66,8 +66,7 @@
               "RelativeToolTip": "ProductAPI\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAwwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:26:09.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T11:26:09.759Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "ProductAPI\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T18:35:54.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T18:35:54.66Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "ProductAPI\\EventHandler\\ProductCreatedEventHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T16:44:00.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T16:44:00.151Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "ProductAPI\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:38:16.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T06:38:16.743Z"
             },
             {
               "$type": "Document",
