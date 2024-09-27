@@ -40,10 +40,18 @@ public class ProductRepository : IProductRepository
 
     public async Task<Product> GetProductById(int id)
     {
-        return await _retryPolicy.ExecuteAsync(async () =>
+        var product= await _retryPolicy.ExecuteAsync(async () =>
         {
             return await _context.Products.FindAsync(id);
         });
+
+        if (product == null) {
+            throw new Exception(message: $"Product with the Id : {id} does not exist");
+        }
+        else
+        {
+            return product;
+        }
     }
 
     public async Task AddProduct(Product product)
