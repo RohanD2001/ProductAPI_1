@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj": {}
+    "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\productapi\\ProductAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj": {
+    "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\productapi\\ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj",
+        "projectUniqueName": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\productapi\\ProductAPI.csproj",
         "projectName": "ProductAPI",
-        "projectPath": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj",
+        "projectPath": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\productapi\\ProductAPI.csproj",
         "packagesPath": "C:\\Users\\rd834\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\obj\\",
+        "outputPath": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\productapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,6 +55,12 @@
               "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
             },

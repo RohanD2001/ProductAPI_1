@@ -155,3 +155,13 @@ C:\Users\2322452\source\repos\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.
 C:\Users\2322452\source\repos\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.pdb
 C:\Users\2322452\source\repos\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.genruntimeconfig.cache
 C:\Users\2322452\source\repos\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ref\ProductAPI.Model.Test.dll
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_ProductAPI.Model.Test
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.csproj.AssemblyReference.cache
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.AssemblyInfoInputs.cache
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.AssemblyInfo.cs
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.csproj.CoreCompileInputs.cache
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.sourcelink.json
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.dll
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\refint\ProductAPI.Model.Test.dll
+C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\obj\Debug\net8.0\ProductAPI.Model.Test.pdb

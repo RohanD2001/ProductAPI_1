@@ -1,8 +1,33 @@
-﻿namespace ProductAPI.Models.Contact
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ProductAPI.Models.Contact
 {
+    [ComplexType]
+    public class Header2
+    {
+        
+        public DateTime Timestamp { get; set; }
+        public string TransactionType { get; set; } // size = 50
+        [Key]
+        public string Source { get; set; } // size = 100 } 
+    }
+
+    [ComplexType]
+    public class ParentAccount2
+    {
+        public string Name { get; set; }
+        public string Type { get; set; }
+        [Key]
+        public string Id { get; set; }
+        public string Email { get; set; }
+    }
     public class ContactModel
     {
- 
+        public Header2 header { get; set; }
+        public ParentAccount2 parentAccount { get; set; }
+
+        [Key]
         public string AccountId { get; set; }
         public int PartyId { get; set; }
         public string ContactId { get; set; }

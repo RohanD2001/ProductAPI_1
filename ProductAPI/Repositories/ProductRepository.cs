@@ -25,7 +25,6 @@ public class ProductRepository : IProductRepository
             .WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(2),
             onRetry: (exception, timeSpan, retryCount, context) =>
             {
-                // You can log retry information here
                 Console.WriteLine($"Retry {retryCount} due to {exception.Message}");
             });
     }
