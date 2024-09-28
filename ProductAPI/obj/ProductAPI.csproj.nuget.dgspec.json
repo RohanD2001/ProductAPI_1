@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj": {}
+    "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj": {
+    "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj",
+        "projectUniqueName": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj",
         "projectName": "ProductAPI",
-        "projectPath": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj",
-        "packagesPath": "C:\\Users\\2322452\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2322452\\source\\repos\\ProductAPI_1\\ProductAPI\\obj\\",
+        "projectPath": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\ProductAPI.csproj",
+        "packagesPath": "C:\\Users\\rd834\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2322452\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rd834\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +25,7 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -106,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

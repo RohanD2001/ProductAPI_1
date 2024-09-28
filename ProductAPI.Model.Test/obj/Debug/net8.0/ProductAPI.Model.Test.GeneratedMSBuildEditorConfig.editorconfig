@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProductAPI.Model.Test
-build_property.ProjectDir = C:\Users\2322452\source\repos\ProductAPI_1\ProductAPI.Model.Test\
+build_property.ProjectDir = C:\Users\rd834\Desktop\ProductAPI\ProductAPI_1\ProductAPI.Model.Test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
