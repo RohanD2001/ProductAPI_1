@@ -1637,10 +1637,7 @@
           "System.Net.Http.Json": "8.0.0"
         },
         "runtime": {
-          "ProductAPI.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ProductAPI.dll": {}
         }
       }
     }

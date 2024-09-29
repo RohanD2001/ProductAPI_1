@@ -3,6 +3,8 @@ using ProductAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
 using ProductAPI.Middleware;
 using ProductAPI.EventHandler;
+using System.Net.Http;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddHttpClient();
 builder.Services.AddSingleton<ProductCreatedEventHandler>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

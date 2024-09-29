@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eP0vO6v1kyQhToRN3NW0iQT7IHycE3fEXxD7vbMhyek=",
+  "Hash": "kpCLB3YDXehtzkSlGZsvKBD6D2m20yVTopFPVQ603s4=",
   "Source": "ProductAPI",
   "BasePath": "_content/ProductAPI",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ProductAPI\\wwwroot",
       "Source": "ProductAPI",
-      "ContentRoot": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\productapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rd834\\Desktop\\ProductAPI\\ProductAPI_1\\ProductAPI\\wwwroot\\",
       "BasePath": "_content/ProductAPI",
       "Pattern": "**"
     }

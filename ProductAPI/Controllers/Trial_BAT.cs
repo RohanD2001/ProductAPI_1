@@ -1,57 +1,58 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProductAPI.Models.Account;
 using ProductAPI.Models.Contact;
-using ProductAPI.Models;
+using Newtonsoft.Json;
+using System.Text;
+using System.Net.Http;
 
-using ProductAPI.Data;
 
 namespace ProductAPI.Controllers
 {
-    [Route("api/[Controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class Trial_BAT : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
-        public Trial_BAT(ApplicationDbContext context) {
+        private readonly IHttpClientFactory _httpClientFactory;
 
-            _context = context;
-
+        public Trial_BAT(IHttpClientFactory httpClientFactory)
+        {
+            _httpClientFactory = httpClientFactory;
         }
 
         [HttpPost]
-        public async Task<IActionResult> SendData(AccountModel accountModel) {
-            try
-            {
-                await _context.AccountData.AddAsync(accountModel);
-                await _context.SaveChangesAsync();
-                return Ok();
-
-            }
-            catch {
-                throw new Exception() {
-
-                };
-            }
-        }
-
-        [HttpPost("SendData2")]
-        public async Task<IActionResult> SendData2(ContactModel contactModel)
+        [Route("send-data")]
+        public async Task<IActionResult> SendData([FromBody] ContactModel model)
         {
+            // Azure Function URL
+            string functionUrl = "http://localhost:7080/api/ValidateAndProcess";
+
+            // Create HttpClient instance
+            var client = _httpClientFactory.CreateClient();
+
+            // Serialize model to JSON
+            var jsonData = JsonConvert.SerializeObject(model);
+            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+
             try
             {
-                await _context.ContactData.AddAsync(contactModel);
-                await _context.SaveChangesAsync();
-                return Ok();
+                // Send POST request to Azure Function
+                var response = await client.PostAsync(functionUrl, content);
 
-            }
-            catch
-            {
-                throw new Exception()
+                // Read the response
+                var responseBody = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
                 {
-
-                };
+                    return Ok(new { Message = "Data sent successfully", Response = responseBody });
+                }
+                else
+                {
+                    return BadRequest(new { Message = "Error sending data", Details = responseBody });
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "An error occurred", Error = ex.Message });
             }
         }
-        
-    }   
+    }
 }
